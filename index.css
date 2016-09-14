@@ -1,0 +1,34 @@
+div {
+	background-color: green
+	font-family: Courier;
+	color: white;
+	font-size:20px;
+	
+}
+#myPhoto {
+    display: block;
+    margin: auto;
+    width: 250px;
+	height: 250px;
+}
+
+h1 {
+	text-align:center;
+	color: green;}
+h2 {
+	text-align:center;}
+h3 {
+	text-align:center;}
+p  {
+	text-align:center;
+	color: #C91871;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+	}
+	
+body {
+    background-image: url("http://hellojessi.com/wp-content/uploads/2016/07/fresh_snow_@2X.png");
+    background-repeat: repeat;
+}
