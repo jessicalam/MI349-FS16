@@ -1,0 +1,79 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #fffff;
+}
+header {
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+	font-style: italic;
+}
+article {
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+section {
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+	font-weight: bold;
+}
+p {text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+	
+}
+h3 {
+	font-size: 18px;
+	
+}
+
+#signatures {
+	font-style: italic;
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 650px;
+    margin-left: 635px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    background-color: white;
+    
+    height: 100%;
+    
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
