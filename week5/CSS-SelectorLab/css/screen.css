@@ -1,0 +1,23 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+
+.navigation {
+	background: green;
+	color: white;
+	font-size: 16px
+}
+#home {
+	font-size: 14px;
+	color: purple;
+	background: white;
+}
+#other-page{
+	font-size: 12px;
+	color: pink;
+	background: blue;
+}
