@@ -1,0 +1,94 @@
+/* Add your CSS below */
+/* Example: adding a background color to the HTML body */
+body {
+  background: linear-gradient(to right, rgb(217, 204, 255), white, rgb(217, 204, 255));
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fried-eggs {
+  background: linear-gradient(135deg, rgb(255, 255, 204), white);
+  border-radius: 15px;
+  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+  
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 1em;
+  text-align: center;
+  width: 500px;
+}
+.ingredients-directions1 {
+	text-align: left;
+}
+
+.fe-cite {
+  font-weight: bold;
+}
+
+.fe-citations {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.chocolate-Cherry-Bombs {
+  background: linear-gradient(135deg, rgb(255, 255, 204), white);
+  border-radius: 15px;
+  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 1em;
+  text-align: center;
+  width: 500px;
+}
+
+.ingredients-directions2 {
+	text-align: left;
+}
+
+.ccb-cite {
+  font-weight: bold;
+}
+
+.ccb-citations {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.ccb-citations li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.hot-Chocolate {
+  background: linear-gradient(135deg, rgb(255, 255, 204), white);
+  border-radius: 15px;
+  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 1em;
+  text-align: center;
+  width: 500px;
+}
+.ingredients-directions3 {
+	text-align: left;
+}
+
+.hc-cite {
+  font-weight: bold;
+}
+
+.hc-citations {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+.hc-citations li {
+  display: inline-block;
+  padding: 15px;
+}
