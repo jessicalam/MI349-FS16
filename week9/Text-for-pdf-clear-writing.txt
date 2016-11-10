@@ -1,0 +1,16 @@
+Inside Page Leftside Text
+-sidebar text can be organized another format
+-category + archives are very expanded already, (instead of a collapsed format)
+
+Inside Page Rightside Text
+-side bar on the third-- text can be arranged a different in a different way
+-categories or archives can be expandable, possibly
+* This one will probably be used as both the homepage and inside page
+
+Homepage Leftside Text
+-posts in the small boxes
+-multiple rows
+-maybe less columns (3)
+-needs two layouts needed if this homepage is chosen if this is used
+-menu may not have "Home", depends if I really need it
+-Archives is completely expanded
