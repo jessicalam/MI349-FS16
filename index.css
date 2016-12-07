@@ -1,0 +1,268 @@
+header {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	
+	background: white;
+	color: black;
+	
+}
+footer {
+	
+	font-size: 18px;
+	text-align: center;
+	background: #6C4558;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0px 15px 0px;
+	margin: 0px 0px 0px 0px;
+	
+	
+	width:100%;
+	
+	
+	
+}
+.wrapper {
+	background-image: url("img/fresh_snow.png");
+    background-repeat: repeat;
+	width: 100%;
+	height: 100%
+}
+
+section {
+	display: -webkit-flex;
+	max-width: 1200px;
+	margin: auto auto auto auto;
+	padding: 15px 35px 15px 35px;
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+	
+}
+.column-head-1 {
+	margin-left: 250px;
+	margin-bottom: -100px;
+	flex: 1 1 50%;
+	width: 50%;
+}
+.column-head-2 {
+	margin-left: 550px;
+	flex: 1 1 50%;
+	width: 50%;
+	
+}
+.column1 {
+	
+	flex: 1 1 33%;
+	width: 33%;
+	padding: 100px 0px 0px 0px;
+	line-height: 20px;
+}
+
+.column2 {
+	flex: 1 1 66%;
+	width: 66%;
+	margin-right: 10px;
+	
+}
+
+.category-listings {
+	font-size: 14px;
+	color: blue;
+}
+.date-listings {
+	font-size: 16px;
+	color:blue;
+}
+.month-listings {
+	font-size: 16px;
+	font-weight: bold;
+}
+.jessica-para {
+	
+}
+.date {
+	color: purple;
+	text-align: right;
+}
+.social-media {
+	text-align: center;
+}
+.social-media-header {
+	margin-top: 0px;
+	text-align: right;
+	
+}
+.header-connect {
+	text-align: right;
+	margin-top: 0px;
+}
+.menu {
+	background: #6C4558;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	width:100%;
+}
+.menu a{
+	
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.menuspacing {
+	text-align: center;
+	word-spacing: 100px;
+}
+
+.column2 p{
+	text-indent: 10mm;
+	
+}
+.contact-contactpage p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.contact-contactpage h1{
+	text-align: center;
+	
+}
+.con-sm {
+	line-height: 30px;
+}
+.sidebar-para {
+	text-align: center;
+}
+
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+h1 {
+	font-size: 35px;
+	color: #B95F68;
+	font-weight: bold;
+	text-align: center;
+}
+h3 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #B95F68;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    background-color: white;
+    height: 100%;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 0px 0px;
+    
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+article {
+	
+}
+p { 
+	font-size: 15px;
+	
+}
+#side-bar {
+	margin-left: 25px;
+	margin-right: 45px;
+	padding-right: 10px;
+	
+	
+	
+}
+#scrollArchives {
+	
+	/*position: fixed;*/
+	width: 20em;
+	top: 20em;
+	
+	
+	
+}
+#about-side p{
+	/*padding-top: 350px;*/
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+
+
+
+
+/* Media Queries - on Phones(small screens)*/
+@media (max-width:450px){
+    section {
+        flex: 1 1 50%;
+        width: 50%;
+    }
+	.column-head-1 { display: none; }
+	.column-head-2 { display: none; } 
+	.column1 { display: none; } 
+	.menu {display: none;}
+	
+	
+}
+
+/* Media Queries - on Tablets Devices*/
+@media (max-width: 800px) {
+  .menu {display: none;}
+  .column-head-2 { display: none; } 
+}
+
+
+
+
+
+
+/* Javascript Accordion Menu */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block;
+}
